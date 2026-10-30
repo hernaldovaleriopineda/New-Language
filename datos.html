@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="datos.html">Datos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Nuevo datos</h2>
+            <p>Ingrese una palabra u oración para guardarla en la base de datos.</p>
+            <form id="formulario-datos" action="#" method="post">
+                <label for="palabra">Palabra u oración:</label>
+                <input type="text" id="palabra" name="palabra" required>
+                
+                <label for="Referencia">Referencia:</label>
+                <input type="text" id="Referencia" name="Referencia" required>
+
+                <button type="submit">Guardar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 New Language. Todos los derechos reservados.</p>
+    </footer>
+    <script src="GuardarDatos.js" defer></script>
+</body>
+</html>
